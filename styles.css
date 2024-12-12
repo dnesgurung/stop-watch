@@ -73,6 +73,41 @@ h1{
     font-size: 5rem;
     font-family: monospace;
     font-weight: bold;
-    color: rgb(6, 12, 18)
-    text-shadow: 2px 2px 2px 
+    color: rgb(6, 12, 18);
+    text-shadow: 2px 2px 2px rgb(133, 130, 130);
+    margin-bottom: 25px;
+}
+
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+#startBtn{
+    background-color: rgb(245, 144, 21);
+}
+#startBtn:hover{
+    background-color: rgba(245, 144, 21, 0.508);
+}
+
+#stopBtn{
+    background-color: red;
+}
+
+#stopBtn:hover{
+    background-color: rgba(255, 0, 0, 0.58);
+}
+#resetBtn{
+    background-color: rgb(228, 228, 72);
+}
+#resetBtn:hover{
+    background-color: rgba(228, 228, 72, 0.571);
 }
